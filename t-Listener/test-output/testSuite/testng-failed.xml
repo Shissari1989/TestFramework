@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testSuite]">
+  <test name="newTesting(failed)">
+    <classes>
+      <class name="testpackage.Retry">
+        <methods>
+          <include name="testOne"/>
+          <include name="testTwo"/>
+        </methods>
+      </class> <!-- testpackage.Retry -->
+    </classes>
+  </test> <!-- newTesting(failed) -->
+</suite> <!-- Failed suite [testSuite] -->
