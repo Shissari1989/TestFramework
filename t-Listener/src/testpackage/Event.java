@@ -8,6 +8,8 @@ public class Event implements WebDriverEventListener {
 
 	@Override
 	public void afterAlertAccept(WebDriver arg0) {
+		
+		System.out.println("Alet accepted");
 		// TODO Auto-generated method stub
 		
 	}
